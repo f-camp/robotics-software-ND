@@ -990,10 +990,10 @@
         </link>
       </model>
       <model name='my_ball'>
-        <pose frame=''>-6.08078 0.131594 0.1 0 -0 0</pose>
+        <pose frame=''>-3.42342 -1.08633 0.1 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link_0'>
-          <pose frame=''>-6.08078 0.131594 0.1 0 -0 0</pose>
+          <pose frame=''>-3.42342 -1.08633 0.1 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
