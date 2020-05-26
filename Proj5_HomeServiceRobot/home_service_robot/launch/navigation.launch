@@ -1,0 +1,5 @@
+<launch>
+
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find home_service_robot)/rvizConfig/HomeServiceRobot.rviz"/>
+
+</launch>

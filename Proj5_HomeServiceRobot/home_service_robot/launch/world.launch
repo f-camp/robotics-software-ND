@@ -1,0 +1,8 @@
+<launch>
+
+  <!-- Launch Gazebo World -->
+  <include file="$(find turtlebot_gazebo)/launch/turtlebot_world.launch">
+    <arg name="world_file" value="$(find home_service_robot)/worlds/proj5.world"/>
+  </include>
+
+</launch>
