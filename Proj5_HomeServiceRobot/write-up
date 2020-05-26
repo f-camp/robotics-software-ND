@@ -1,0 +1,11 @@
+
+In this project I used the turtelebot_gazebo package to generate the robot. I have loaded the robot in a custom U-shape world and mapped the environment using both the gmapping and the turtlebot_teleop packages.
+
+The home service robot script uses: a) the map generated at the previous step. b) a node to generate the pickup and drop off coordinates and c) a node to simulate the package using a marker.
+
+To run the simulation download the packages: home_service_robot, pick_objects and add_markers. Source your workspace and build the packages.
+
+Run the script ./home_service.sh
+
+
+

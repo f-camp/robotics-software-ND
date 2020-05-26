@@ -13,3 +13,7 @@ In this project, a two wheeled robot is programmed to chase a white ball in gaze
 
 
 ## Project 3: Where Am I?
+
+In this project, the Adaptive Monte Carlo Localization algorithm is used to localize the robot within the simulated environment. Distance from the walls is provide using lidar scans.
+
+![amcl](Proj3_WhereAmI/Images/AMCL.gif)

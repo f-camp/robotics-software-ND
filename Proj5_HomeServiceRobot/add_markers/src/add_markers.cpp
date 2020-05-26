@@ -23,8 +23,8 @@ int main( int argc, char** argv )
   ros::Rate r(1);
   ros::Publisher marker_pub = n.advertise<visualization_msgs::Marker>("visualization_marker", 1);
 
-  //Due to poor map accuracy odometry is not accurate when delivering or picking up the object
-  //I have used a flag published by the object pick up node to alert when the goal is reached
+  //Due to poor map accuracy odometry is not accurate enough to estimate delivery or pick up locations
+  //Instead of using odometry I have used a flag published by the object pick up node to alert when the goal is reached
   //ros::Subscriber odometry_sub = n.subscribe("odom", 1000, odom_callback);
   ros::Subscriber goal_sub = n.subscribe("goal/flag", 1000, goal_callback);
 
